@@ -1,0 +1,95 @@
+1. 	Primitive vs Refernce type
+	
+	Frame(method memory) and Head(object container) see visualizer
+
+	Class and object(instance)
+
+	lifecycle of object
+	phases: create, use, destroy
+
+	Creator - write methods or class
+	User - uses it
+
+	JavaNamingConvetion
+	
+	class - first character is upper case
+	package, variable - is noun with 1-st lower case sybol
+	method - verb, lower case 
+
+	CamelCase http://java.about.com/od/javasyntax/a/nameconventions.htm
+
+	Class - structure
+	object - instance from structure
+
+	compare static method vs non-static
+		
+	<MyType> <name> = new <MyType>();
+	How many actions in above code line
+
+	this keyword
+
+	Debug mod in idea
+
+	String class (see examples) 
+	http://docs.oracle.com/javase/7/docs/api/java/lang/String.html
+	http://habrahabr.ru/post/260767/
+
+ Visualize all classwork via http://www.pythontutor.com/visualize.html#mode=edit or IDEA debug mode
+
+
+ Practical part
+2. Написать класс число.
+	- сложение
+	- вычитание
+	- умножение
+	- деление
+	- возведение в степень
+	- вычисление факториала
+	- вычисление остатка от деления
+	- метод который сравнивает два числа
+
+3. Написать класс дробь
+	- сложение дробей
+	- вычитание
+	- умножение
+	- деление
+	- приведение к строке
+	- вывод
+	- метод для сравнения с другой дробью
+
+4. Написать калькулятор в виде консольного меню
+	- сложение двух чисел
+	- вычитание двух чисел
+	- умножение двух чисел
+	- деление двух чисел
+
+5. Написать класс массив.
+	- нахождение минимального
+	- нахождение максимального
+	- заполнение случайными числами в диапазоне
+	- красивый вывод на экран {2 4 5 6}
+	-* увеличить размер
+	-* сделать сортировку массива
+	-* метод для сравнения с другим массивом
+
+6*. Написать класс строка
+	- создание на основе массива символов
+	- вывод на экран
+	- конкатенация
+	- понижение регистра
+	- повышение регистра
+	- поиск подстроки
+	- выделение подстроки
+	- удаление пробелов
+	- метод для сравнения с другой строкой
+
+
+
+Material
+	Books 
+		6.1. Кэти Сьерра, Берт Бейтс. "Head First Java / Изучаем Java"  http://rutracker.org/forum/viewtopic.php?t=4212262
+		6.2. Шилдт Г. "Java. Полное руководство"  			http://padabum.com/d.php?id=17386
+		6.3. Кей Хорстманн, Гари Корнелл - Java 2. Том 1 		http://www.ex.ua/8600905
+		6.4. Брюс Эккель. "Философия Java"                              http://www.ex.ua/4884921
+		6.5. OCJP 7 										
+
