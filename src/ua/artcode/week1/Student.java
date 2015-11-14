@@ -1,8 +1,6 @@
 package ua.artcode.week1;
 
-/**
- * Created by serhii on 08.11.15.
- */
+// java add default construct if
 public class Student {
 
     String name;
