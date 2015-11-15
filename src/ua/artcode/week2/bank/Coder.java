@@ -7,9 +7,16 @@ public class Coder extends Employee {
 
     private String programmingLanguage;
 
+    public Coder() {
+    }
+
     public Coder(String name, int age, String code, double cash, String programmingLanguage) {
         super(name, age, code, cash);
         this.programmingLanguage = programmingLanguage;
+    }
+
+    public void work(){
+        System.out.println("Coder works");
     }
 
     public void code(){

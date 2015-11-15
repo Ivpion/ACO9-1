@@ -27,4 +27,9 @@ public class Employee extends User {
     public void setMoney(double money) {
         this.money = money;
     }
+
+    public String toString(){
+        return  String.format("Hi im employee - name %s, age %d, salary %.2f",
+                getName(), getAge(), getMoney());
+    }
 }

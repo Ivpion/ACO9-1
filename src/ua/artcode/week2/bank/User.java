@@ -1,9 +1,11 @@
 package ua.artcode.week2.bank;
 
+import ua.artcode.service_centre.v1.IdEntity;
+
 /**
  * Created by serhii on 14.11.15.
  */
-public class User {
+public class User extends IdEntity {
 
     private String code;
     private String name;

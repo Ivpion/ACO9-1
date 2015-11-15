@@ -7,13 +7,24 @@ public class Tester extends Employee {
 
     private String type;
 
+    public Tester() {
+
+    }
+
     public Tester(String name, int age, String code, double cash, String type) {
         super(name, age, code, cash);
         this.type = type;
     }
 
+    public void work(){
+        System.out.println("Tester works");
+    }
+
     public void test(){
         System.out.println("Tester test");
     }
+
+
+
 
 }
