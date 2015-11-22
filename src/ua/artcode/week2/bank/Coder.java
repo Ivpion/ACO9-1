@@ -1,9 +1,11 @@
 package ua.artcode.week2.bank;
 
+import ua.artcode.utils.TimeAction;
+
 /**
  * Created by serhii on 14.11.15.
  */
-public class Coder extends Employee {
+public class Coder extends Employee implements TimeAction {
 
     private String programmingLanguage;
 
@@ -23,4 +25,8 @@ public class Coder extends Employee {
         System.out.println("Coder code");
     }
 
+    @Override
+    public void callWrappedAction() {
+        code();
+    }
 }

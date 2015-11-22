@@ -2,9 +2,6 @@ package ua.artcode.service_centre.v1;
 
 import ua.artcode.week2.bank.Employee;
 
-/**
- * Created by serhii on 15.11.15.
- */
 public class Admin extends Employee {
 
 
