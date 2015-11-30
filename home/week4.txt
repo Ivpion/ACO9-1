@@ -1,0 +1,60 @@
+1. final -> variable, field, method, class
+   static -> field, method (lifecycle, scope)
+
+   Object methods 
+    equals, clone, toString
+	Must know how to override that methods
+       book Effective Java 
+
+   SOLID learn by heart
+
+   see patterns Strategy, Observer, FactoryMethod, Decorator
+	book Head First Design Patterns
+
+   Recursion - basi algorithms (factorial, pow, palidrome, fibbonachi numbers)
+	
+   Recursion Visualization
+	http://visualgo.net/recursion.html
+	https://www.cs.usfca.edu/~galles/visualization/RecReverse.html
+	https://www.cs.usfca.edu/~galles/visualization/RecFact.html
+   
+   see interface java.util.List
+
+		     Data Strutures
+			based on
+        Nodes			
+   https://www.cs.usfca.edu/~galles/visualization/StackLL.html
+   https://www.cs.usfca.edu/~galles/visualization/QueueLL.html
+
+	Array 
+   https://www.cs.usfca.edu/~galles/visualization/StackArray.html
+   https://www.cs.usfca.edu/~galles/visualization/QueueArray.html
+
+   More exaples structures on Nodes
+   http://visualgo.net/list.html
+ 
+	define advantages and disadvantages of linked and array structures
+
+
+   2. Do minimum 10 tasks from http://codingbat.com/java/Recursion-1
+     * or if you are want to be a hero implement all!
+
+   3. Finish our ArrayQueue
+
+   Implement own simple ArrayStack, LinkedStack, LinkedQueue
+
+   4*. Upgrade your LinkedQueue
+     Переопределяем equals, toString, clone для структуры
+        - добавить элемент в хвост
+        - добавить элемент в голову
+        - забрать элемент с головы
+        - забрать элемент с хвоста
+        - Поиск элемента по значению (сравнение через equals)
+       - Поменять местами первый и последний элементы
+        - Поменять местами наибольший и наименьший элементы, в случае если реализован интерфейс Comparable
+        - Отсортировать список, в случае если реализован интерфейс Comparable
+        - Удалить повторяющиеся элементы из списка, в случае если реализован интерфейс Comparable
+        * Перестроить элементы в обратном порядке
+        * Реализовать итератор
+     
+        	
