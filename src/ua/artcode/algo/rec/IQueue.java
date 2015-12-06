@@ -3,11 +3,11 @@ package ua.artcode.algo.rec;
 /**
  * Created by serhii on 29.11.15.
  */
-public interface IQueue {
+public interface IQueue<U> {
 
-    void enqueue(Object node);
+    void enqueue(U node);
 
-    Object dequeue();
+    U dequeue();
 
     int size();
 

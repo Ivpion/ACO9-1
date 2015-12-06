@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="240.0" y="0.0">ua.artcode.algo.rec.IQueue</node>
+    <node x="36.5" y="359.0">ua.artcode.week5.day1.ExampleGenericsValid</node>
+    <node x="0.0" y="146.0">ua.artcode.week5.day1.LinkedQueue</node>
+    <node x="270.0" y="146.0">ua.artcode.week5.day1.QueueTest</node>
+    <node x="34.25" y="11.0">ua.artcode.algo.common.Node</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ua.artcode.week5.day1.ExampleGenericsValid" target="ua.artcode.week5.day1.LinkedQueue">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="ua.artcode.week5.day1.LinkedQueue" target="ua.artcode.algo.rec.IQueue">
+      <point x="83.33333333333331" y="-81.5" />
+      <point x="208.33333333333331" y="121.0" />
+      <point x="291.0" y="121.0" />
+      <point x="-51.0" y="48.0" />
+    </edge>
+    <edge source="ua.artcode.week5.day1.LinkedQueue" target="ua.artcode.algo.common.Node">
+      <point x="-83.33333333333331" y="-81.5" />
+      <point x="41.666666666666686" y="121.0" />
+      <point x="64.5" y="121.0" />
+      <point x="-30.25" y="37.0" />
+    </edge>
+    <edge source="ua.artcode.week5.day1.QueueTest" target="ua.artcode.algo.rec.IQueue">
+      <point x="0.0" y="-81.5" />
+      <point x="51.0" y="48.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1517730496453902" x="223.21243842364527" y="276.08004926108373" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
