@@ -1,6 +1,6 @@
 package ua.artcode.week5.day1.exception;
 
-import ua.artcode.algo.rec.IQueue;
+import ua.artcode.algo.data_structure.IQueue;
 import ua.artcode.algo.data_structure.LinkedQueue;
 
 /**

@@ -1,8 +1,6 @@
 package ua.artcode.algo.rec;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import ua.artcode.algo.data_structure.Node;
 
 public class TreeRecursionTest {
 

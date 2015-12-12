@@ -1,7 +1,5 @@
 package ua.artcode.week5.day1.exception;
 
-import ua.artcode.algo.rec.IQueue;
-
 public class ExceptionIntro {
 
 

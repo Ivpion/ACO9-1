@@ -1,7 +1,8 @@
 package ua.artcode.algo.data_structure;
 
 import ua.artcode.algo.common.Node;
-import ua.artcode.algo.rec.IQueue;
+
+import java.util.Iterator;
 
 
 public class LinkedQueue<T> implements IQueue<T> {
@@ -43,5 +44,10 @@ public class LinkedQueue<T> implements IQueue<T> {
     @Override
     public int size() {
         return size;
+    }
+
+    @Override
+    public Iterator<T> iterator() {
+        return null;
     }
 }

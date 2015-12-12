@@ -1,5 +1,8 @@
 package ua.artcode.algo.rec;
 
+import ua.artcode.algo.data_structure.ArrayQueue;
+import ua.artcode.algo.data_structure.Node;
+
 public class MakeReportWithQueueTest {
 
     public static void main(String[] args) {

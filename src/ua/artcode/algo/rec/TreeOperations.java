@@ -1,5 +1,8 @@
 package ua.artcode.algo.rec;
 
+import ua.artcode.algo.data_structure.IQueue;
+import ua.artcode.algo.data_structure.Node;
+
 import java.util.List;
 
 /**
