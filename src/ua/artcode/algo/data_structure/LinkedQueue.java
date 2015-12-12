@@ -48,6 +48,23 @@ public class LinkedQueue<T> implements IQueue<T> {
 
     @Override
     public Iterator<T> iterator() {
-        return null;
+        return new LinkedQueueIterator();
+    }
+
+    private class LinkedQueueIterator implements Iterator<T>{
+
+        private Node<T> curr = head;
+
+        @Override
+        public boolean hasNext() {
+            return curr != null;
+        }
+
+        @Override
+        public T next() {
+            T forRet = curr.value;
+            curr = curr.next;
+            return forRet;
+        }
     }
 }

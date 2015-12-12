@@ -1,17 +1,17 @@
 package ua.artcode.week5.day1.test;
 
 import ua.artcode.algo.data_structure.IQueue;
+import ua.artcode.core_test.AbstractTest;
+import ua.artcode.core_test.TestResult;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
-/**
- * Created by serhii on 05.12.15.
- */
-public class QueueTest {
+public class QueueTest extends AbstractTest {
 
     private IQueue queue;
-    private List<TestResult> testResults;
+
 
     public QueueTest(IQueue queue) {
         this.queue = queue;
@@ -37,10 +37,43 @@ public class QueueTest {
                 String.valueOf(queue.size())));
     }
 
+    public void testSize(){
+        for (int i = 0; i < 5; i++) {
+            queue.enqueue(i);
+        }
+
+        int size = queue.size();
+
+        testResults.add(new TestResult("testForEach",String.valueOf(5),String.valueOf(size)));
+    }
+
+    public void testIterator(){
+        //Iterator iQueue = queue.iterator();
+
+    }
+
+    public void testForEach(){
+
+        for (int i = 0; i < 5; i++) {
+            queue.enqueue(i);
+        }
+
+        int size = queue.size();
+
+        int count = 0;
+        for (Object o : queue) {
+            count++;
+        }
+
+        testResults.add(new TestResult("testForEach",String.valueOf(size),String.valueOf(count)));
+    }
+
 
     public void runAllTest(){
         testEnqueue();
         testDequeue();
+        testSize();
+        testForEach();
     }
 
     @Override

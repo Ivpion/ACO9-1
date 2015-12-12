@@ -1,4 +1,4 @@
-package ua.artcode.week5.day1.test;
+package ua.artcode.core_test;
 
 /**
  * Created by serhii on 05.12.15.
