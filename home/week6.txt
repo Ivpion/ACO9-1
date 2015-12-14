@@ -1,0 +1,78 @@
+1.Material 
+
+    java.io.*;
+
+    class File
+    absolute and relative paths (differences)
+
+    byte Stream (InputStream, OutputStream)
+    char streams (Reader, Writer)
+
+    !!! always close OutputStream and Writer
+
+    Design Patterns: Decorator, Adapter, Observer, Strategy, FactoryMethod
+
+3. https://www.codecademy.com/learn/learn-the-command-line
+	if you have some questions or need more material
+	https://quickleft.com/blog/command-line-tutorials-summary-what-s-next/
+	http://linuxcommand.org/	
+
+	Play with own system -> for windows use 'git bush', for linux -> just run 'terminal'
+
+4. https://www.codecademy.com/learn/learn-git
+
+5. Implements own Java console based on above task or improve same task from OOP course
+	use MVC pattern, draw ulm diagram
+
+     command structure 
+	<command_name> [options...] [<arg1> <arg2> <...>]
+
+	to get brief description 
+ 	<command> --help
+
+	full manual
+	man <command>
+
+	Implements next commands
+		man
+		help
+
+		pwd
+		ls
+		ls with options [-al]
+		cd
+ 
+		cat
+		head 
+		tail
+
+		mkdir
+		touch
+	
+		cp
+		mv
+		rm
+
+		implements Redirection
+		>
+		>>
+		<
+
+		Pipes between commands
+		| 
+
+		grep
+		grep -R		
+		
+		sort
+		uniq
+
+		find 
+
+		** Add wildcards to program http://www.linfo.org/wildcard.html
+		** advanced testing in data
+			 find . -name *.txt | sort | uniq > result.txt
+		         cat < in.txt | grep 19.05.2009 >> result.txt
+
+
+!!!First Tests, then implementation    
