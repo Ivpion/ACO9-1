@@ -1,8 +1,5 @@
 package ua.artcode.design_patterns.facade;
 
-/**
- * Created by serhii on 19.12.15.
- */
 public class Test {
 
     public static void main(String[] args) {
